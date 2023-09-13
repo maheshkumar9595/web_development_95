@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css grid3</title>
+    <style>
+      .grid {
+        display: grid;
+        /* grid-template-columns: 1fr 3fr 3fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-gap: 2rem; */
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      }
+      .item {
+        background-color: rgb(155, 155, 219);
+        border: 2px solid black;
+        /* margin: 20px; */
+        padding: 23px;
+        margin: 10px;
+      }
+      .item {
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid">
+      <div class="item">Page-1</div>
+      <div class="item">Page-2</div>
+      <div class="item">Page-3</div>
+      <div class="item">Page-4</div>
+      <div class="item">Page-5</div>
+      <div class="item">Page-6</div>
+      <div class="item">Page-7</div>
+      <div class="item">Page-8</div>
+      <div class="item">Page-9</div>
+      <div class="item">Page-10</div>
+    </div>
+  </body>
+</html>

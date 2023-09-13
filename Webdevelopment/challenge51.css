@@ -1,0 +1,177 @@
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+.product-img{
+  float: left;
+  margin-right: 10px;
+}
+
+/* PRODUCT */
+.product {
+  border: 4px solid black;
+  width: 825px;
+  margin: 50px auto;
+  position: relative;
+}
+
+.product-title {
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+  background-color: #f7f7f7;
+  margin-bottom: 20px 20px;
+  padding: 20px;
+}
+
+/* PRODUCT INFORMATION */
+.product-info{
+float: left;
+  width: 250px;
+  margin: 20px;
+
+}
+.price {
+  font-size: 24px;
+  float: left;  ...............
+}
+
+.shipping {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #777;
+  margin-bottom: 20px;
+  float: right; ....
+}
+
+.sale1 {
+  background-color: #06be25;
+  color: #fff;
+  font-size: 12px;
+  text-transform: lowercase;
+  font-weight: bolder;
+  display: inline-block;
+  letter-spacing: 2px;
+  padding: 7px 15px;
+  position: absolute;
+  top: -17px;
+  left: -34px;
+  /* width:40px;
+  text-align: center */
+}
+/*  */
+
+.product-description{
+  
+  clear: both;
+  float: left;
+}
+.product-details{
+
+  float: left;
+  padding: 20px;
+}
+
+.color {
+  background-color: black;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin-right: 10px;
+}
+.color-black {
+  background-color: rgb(7, 7, 7);
+}
+.color-blue {
+  background-color: blue;
+vscode-file://vscode-app/c:/Users/sai/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.html}
+.color-red {
+  background-color: red;
+}
+.color-yellow {
+  background-color: yellow;
+}
+.color-green {
+  background-color: green;
+}
+.color-brown {
+  background-color: brown;
+}
+/* position: absolute; */
+
+.product-description{
+  clear: both;
+}
+
+.more-info:link,
+.more-info:visited {
+  color: black;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
+}
+
+/* PRODUCT DETAILS */
+.product-details{
+  width: 250px;
+}
+.details-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.details-list {
+  list-style: square;
+  margin-left: 20px;
+}
+
+.details-list li {
+  margin-bottom: 20px;
+}
+
+/* li {
+  margin-bottom: 20px;
+} */
+
+/* BUTTON */
+.add-cart {
+  background-color: #000;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 20px;
+  width: 100%;
+  /* height: auto; */
+  /* margin-bottom: 30px; */
+  border-top: 2px solid orange;
+}
+
+.add-cart:hover {
+  color: #000;
+  background-color: #fff;
+  /* border: 2px solid orange; */
+}
+
+aside{
+  
+  
+  
+}
